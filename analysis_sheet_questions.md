@@ -1,6 +1,8 @@
 1.  What is the order of growth of $n^3 + n^2$? What about
     $1000000 n^3 + n^2$? What about $n^3 + 1000000 n^2$?
 
+
+
 2.  What is the order of growth of $(n^2 + n) \cdot (n + 1)$? Before you
     start multiplying, remember that you only need the leading term.
 
