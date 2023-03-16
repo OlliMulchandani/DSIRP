@@ -18,7 +18,7 @@ The process of creating a Huffman code involves the following steps:
 
 ## Example
 
-Let's consider the message "abracadabra". The frequency of occurrence for each symbol is:
+Let's consider the message "abracadabra!". The frequency of occurrence for each symbol is:
 
 | Symbol | Frequency |
 |--------|-----------|
@@ -27,23 +27,25 @@ Let's consider the message "abracadabra". The frequency of occurrence for each s
 | c      | 1         |
 | d      | 1         |
 | r      | 2         |
+| !      | 1         |
 
 We can use these frequencies to construct a Huffman tree:
 
-![Huffman Tree](https://brilliant-staff-media.s3-us-west-2.amazonaws.com/tiffany-wang/VEIWKBhSSc.png)
+![Huffman Tree](https://www.cs.princeton.edu/courses/archive/fall08/cos226/assignments/huffman.png)
 
 The codes for each symbol are:
 
 | Symbol | Code |
 |--------|------|
 | a      | 0    |
-| b      | 101  |
-| c      | 1000 |
-| d      | 1001 |
-| r      | 11   |
+| b      | 111  |
+| c      | 1011 |
+| d      | 100 |
+| r      | 110   |
+| !      | 1010 |
 
 Thus, the encoded message is:
-010011001000110100010011010
+0111110010110100011111001010
 
 
 ## Benefits
